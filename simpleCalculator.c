@@ -15,6 +15,7 @@ int main()
 
     printf("\nEnter another number: ");
     scanf("%lf", &num02);
+    getchar();
 
     switch (operator)
     {
@@ -38,6 +39,9 @@ int main()
         printf("%c is not valid", operator);
         break;
     }
+
+    printf("\n\nPress ENTER key to Continue\n");
+    getchar();
 
     return 0;
 }
